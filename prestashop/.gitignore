@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!/modules
+/modules/*
+!/modules/mymodule
+!/modules/blog
+!/config
+/config/*
+!/config/defines.inc.php
