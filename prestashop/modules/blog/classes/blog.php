@@ -213,12 +213,12 @@ class blog extends Module
         $this->context->smarty->assign(
       array(
           'blog_name' => Configuration::get('BLOG_NAME'),
-          'blog_link' => $this->context->link->getModuleLink('mymodule', 'display'),
+          'blog_link' => $this->context->link->getModuleLink('blog', 'display'),
           'blog_count' => count($products),
           'blog_last_product' => $products[0][name]
       )
   );
-        return $this->display(_PS_MODULE_DIR_.$this->name, 'mymodule.tpl');
+        return $this->display(_PS_MODULE_DIR_.$this->name, 'blog.tpl');
     }
 
     public function hookDisplayRightColumn($params)

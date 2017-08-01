@@ -1,6 +1,6 @@
 <!-- Block blog -->
-<div id="mymodule_block_left" class="block">
-  <h4>{l s='Welcome!' mod='blog'}</h4>
+<div id="blog_block_left" class="block">
+  <h4>{l s='Blog!' mod='blog'}</h4>
   <div class="block_content">
     <p>
       {if !isset($blog_name) || !$blog_name}
